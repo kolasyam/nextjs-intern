@@ -51,7 +51,7 @@ export default function Navbar(){
                         <Link href='/#Contact'>Contact</Link>
                         </li>
                         <li className='text-sm uppercase hover:border-b'>
-                            <Link href="https://docs.google.com/document/d/1VftFdhampBv_ERfNk_dH0JH1NJgp7xoj2cG2GCp9l6g/edit"   target="_blank">
+                            <Link href="https://drive.google.com/file/d/1NPDbIqwDS2aDn6uKvMg3mz_z5Q4uI1jP/view"   target="_blank">
                             <div className="bg-slate-300 px-5 rounded-md py-3 -mt-3 hover:bg-slate-500 duration-300 font-semibold hover:text-white">RESUME</div>
                             </Link>
                         </li>
