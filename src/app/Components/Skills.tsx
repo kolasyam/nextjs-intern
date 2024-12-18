@@ -7,9 +7,9 @@ import react from "/images/reactjs.jpg";
 import typescript from "/images/typescript.jpg";
 import nextjs from "/images/nextjs.svg";
 import tailwind from "/images/tailwindcss.jpg";
-import javascript from "/images/javascript.jpg";
+// import javascript from "/images/javascript.jpg";
 import github from "/images/github.jpg";
-import postgres from "/images/postgres.png";
+import postgres from "/images/Postgres.png";
 import express from "/images/Express.png";
 import node from "/images/Node.png";
 
