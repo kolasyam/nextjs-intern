@@ -285,7 +285,7 @@ export default function Projects() {
               </div>
             </div>
           </div>
-          <div className="p-4 md:w-1/3 hover:scale-105 ease-in duration-300">
+          {/* <div className="p-4 md:w-1/3 hover:scale-105 ease-in duration-300">
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="lg:h-48 md:h-36 w-full object-cover object-center">
                 <Image src={dicegame} alt="/" width="700" height="401" />
@@ -321,6 +321,74 @@ export default function Projects() {
                   >
                     <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
                       <DiGithubFull size={30} />
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div> */}
+          <div className="p-4 md:w-1/3 hover:scale-105 ease-in duration-300">
+            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="lg:h-48 md:h-36 w-full object-cover object-center">
+                <Image src={dicegame} alt="/" width="700" height="401" />
+              </div>
+              <div className="p-6 mt-7">
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-2">
+                  Dice-Game
+                </h1>
+                {/* <div className='flex flex-row justify-between items-center flex-wrap'>
+                        <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700 mr-10">reactjs</div>
+                        <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">Bootstrap</div>
+                        
+                    </div> */}
+                {/* <div className="flex flex-row justify-between items-center flex-wrap">
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Tailwindcss
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Nextjs
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Nypescript
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Supabase
+                  </div>
+                </div> */}
+                <div className="flex flex-row justify-between items-center flex-wrap">
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    HTML
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    CSS
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Javascript
+                  </div>
+                </div>
+                <p className="leading-relaxed mb-3">
+                  {/* GeminiAI is an AI-powered chatbot built using Supabase,
+                  Next.js, and TailwindCSS, leveraging advanced natural language
+                  processing for dynamic conversations. The project integrates
+                  an API to provide real-time, context-aware responses across
+                  various domains. It demonstrates my proficiency in AI, API
+                  integration, and modern front-end development. */}
+                  The Dice game project is a two-player game that allows users
+                  to roll dice and compete against each other. It incorporates
+                  interactive gameplay elements, where each player takes turns
+                  rolling the dice and accumulating points. The project
+                  showcases my ability to implement simple game logic and
+                  enhance user engagement.
+                </p>
+                <div className="flex justify-center flex-wrap">
+                  <Link
+                    href="https://gemini-ai-chatbot-eqmj.vercel.app/"
+                    passHref
+                    target="_blank"
+                  >
+                    <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
+                      <DiGithubFull size={30} />
+                      {/* Link */}
                     </button>
                   </Link>
                 </div>
