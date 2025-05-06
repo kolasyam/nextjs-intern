@@ -12,6 +12,7 @@ import github from "/images/github.jpg";
 import postgres from "/images/Postgres.png";
 import express from "/images/Express.png";
 import node from "/images/Node.png";
+import mongodb from "/images/mongodb.png";
 
 import AOS from "aos";
 import "aos/dist/aos.css";
@@ -55,16 +56,6 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
-                <Image src={node} width="64" height="64" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Node.js</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
                 <Image src={react} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
@@ -75,10 +66,50 @@ export default function Skills() {
           <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
+                <Image src={nextjs} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Next.js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={node} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Node.js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={express} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>Express.js</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
+                <Image src={mongodb} width="64" height="64" alt="/" />
+              </div>
+              <div className="flex flex-col items-center justify-center">
+                <h3>MongoDB</h3>
+              </div>
+            </div>
+          </div>
+          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
+            <div className="grid grid-cols-2 gap-4 justify-center items-center">
+              <div className="m-auto">
                 <Image src={tailwind} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
-                <h3>Tailwind</h3>
+                <h3>TailwindCSS</h3>
               </div>
             </div>
           </div>
@@ -89,16 +120,6 @@ export default function Skills() {
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>Typescript</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={nextjs} width="64" height="64" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>Nextjs</h3>
               </div>
             </div>
           </div>
@@ -116,16 +137,6 @@ export default function Skills() {
             <div className="grid grid-cols-2 gap-4 justify-center items-center">
               <div className="m-auto">
                 <Image src={postgres} width="64" height="64" alt="/" />
-              </div>
-              <div className="flex flex-col items-center justify-center">
-                <h3>PostgreSQL</h3>
-              </div>
-            </div>
-          </div>
-          <div className="p-6 shadow-xl rounded-xl hover:scale-105 ease-in duration-300">
-            <div className="grid grid-cols-2 gap-4 justify-center items-center">
-              <div className="m-auto">
-                <Image src={express} width="64" height="64" alt="/" />
               </div>
               <div className="flex flex-col items-center justify-center">
                 <h3>PostgreSQL</h3>

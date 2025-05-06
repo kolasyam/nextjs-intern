@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import profile from "/images/nextjs.svg";
 import Image from "next/image";
 import { gsap } from "gsap";
+import home from "/images/home.png";
 
 export default function About() {
   const aboutSectionRef = useRef<HTMLDivElement>(null);
@@ -58,8 +59,10 @@ export default function About() {
             Hi, I’m Syam Manikanta Kola, a passionate Web developer with
             experience in building dynamic web applications. I enjoy turning
             ideas into functional and visually appealing products. I’ve worked
-            on projects like a GeminiAI Chatbot, where I honed my skills in
-            technologies like React.js, Next.js, TailwindCSS, and TypeScript.
+            on projects like a Tast Tracker Application, List Management System,
+            GeminiAI API Clone, where I honed my skills in technologies like
+            React.js, Next.js, TailwindCSS, Express.js, MongoDB, Node.js and
+            TypeScript.
           </p>
           <p className="py-2 text-gray-600">
             With a strong foundation in front-end and back-end development, I
