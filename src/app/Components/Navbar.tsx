@@ -53,6 +53,9 @@ export default function Navbar() {
               <Link href="/#Skills">Skills</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b hover:text-indigo-500">
+              <Link href="/#Experience">Experience</Link>
+            </li>
+            <li className="ml-10 text-sm uppercase hover:border-b hover:text-indigo-500">
               <Link href="/#Projects">Projects</Link>
             </li>
             <li className="ml-10 text-sm uppercase hover:border-b hover:text-indigo-500">
@@ -60,7 +63,7 @@ export default function Navbar() {
             </li>
             <li className="text-sm uppercase hover:border-b">
               <Link
-                href="https://drive.google.com/file/d/1GFA-V_Dv3ZfUT5jXy9miHMgdUSQTB34k/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Fhd30b5zI6bnJ1QMcpmD9i8dSFl74tof/view?usp=sharing"
                 target="_blank"
               >
                 <div className="bg-slate-300 px-5 rounded-md py-3 -mt-3 hover:bg-slate-500 duration-300 font-semibold hover:text-white">
@@ -116,6 +119,11 @@ export default function Navbar() {
               <Link href="/#Skills">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Skills
+                </li>
+              </Link>
+              <Link href="/#Experience">
+                <li onClick={() => setNav(false)} className="py-4 text-sm">
+                  Experience
                 </li>
               </Link>
               <Link href="/#Projects">

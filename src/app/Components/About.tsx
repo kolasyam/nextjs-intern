@@ -4,6 +4,7 @@ import profile from "/images/nextjs.svg";
 import Image from "next/image";
 import { gsap } from "gsap";
 import home from "/images/home.png";
+import Aos from "aos";
 
 export default function About() {
   const aboutSectionRef = useRef<HTMLDivElement>(null);
@@ -39,7 +40,9 @@ export default function About() {
 
     return () => ctx.revert();
   }, []);
-
+    useEffect(() => {
+      Aos.init({ duration: 2000 });
+    }, []);
   return (
     <div
       id="About"

@@ -6,6 +6,7 @@ import About from "./Components/About";
 import Projects from "./Components/Projects";
 import Contact from "./Components/Contact";
 import ScrollToTop from "./Components/ScrollToTop";
+import Experience from "./Components/Experience";
 export default function Home() {
   return (
     <>
@@ -13,6 +14,7 @@ export default function Home() {
     <Main></Main>
     <About></About>
     <Skills></Skills>
+    <Experience></Experience>
     <Projects></Projects>
     <Contact></Contact>
     <ScrollToTop></ScrollToTop>
