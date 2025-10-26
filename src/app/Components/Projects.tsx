@@ -314,13 +314,13 @@ export default function Projects() {
                 </p>
                 <div className="flex justify-center flex-wrap">
                   <Link
-                    href="https://gemini-ai-chatbot-eqmj.vercel.app/"
+                    href="https://github.com/kolasyam/gemini-ai-chatbot"
                     passHref
                     target="_blank"
                   >
                     <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
-                      {/* <DiGithubFull size={30} /> */}
-                      Link
+                      <DiGithubFull size={30} /> 
+                      
                     </button>
                   </Link>
                 </div>
