@@ -255,7 +255,7 @@ export default function Projects() {
               </div>
             </div>
           </div> */}
-                    <div className="p-4 md:w-1/3 hover:scale-105 ease-in duration-300">
+        <div className="p-4 md:w-1/3 hover:scale-105 ease-in duration-300">
             <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
               <div className="lg:h-48 md:h-36 w-full object-cover object-center">
                 <Image src={calculator} alt="/" width="700" height="401" />
@@ -314,13 +314,13 @@ export default function Projects() {
                 </p>
                 <div className="flex justify-center flex-wrap">
                   <Link
-                    href="https://gemini-ai-chatbot-eqmj.vercel.app/"
+                    href="https://github.com/kolasyam/gemini-ai-chatbot"
                     passHref
                     target="_blank"
                   >
                     <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
-                      {/* <DiGithubFull size={30} /> */}
-                      Link
+                      <DiGithubFull size={30} />
+                      {/* Link */}
                     </button>
                   </Link>
                 </div>
