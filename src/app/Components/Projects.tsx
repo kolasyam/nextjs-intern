@@ -320,7 +320,7 @@ export default function Projects() {
                   >
                     <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
                       <DiGithubFull size={30} />
-                      Link
+                      {/* Link */}
                     </button>
                   </Link>
                 </div>
