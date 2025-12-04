@@ -63,7 +63,7 @@ export default function Navbar() {
             </li>
             <li className="text-sm uppercase hover:border-b">
               <Link
-                href="https://drive.google.com/file/d/1t058_5loAMkH_ouByskgswVif62ps3Sz/view?usp=sharing"
+                href="https://drive.google.com/file/d/1X19XsrIAudz1H1n3pFB0VV80sRL8txU4/view?usp=sharing"
                 target="_blank"
               >
                 <div className="bg-slate-300 px-5 rounded-md py-3 -mt-3 hover:bg-slate-500 duration-300 font-semibold hover:text-white">

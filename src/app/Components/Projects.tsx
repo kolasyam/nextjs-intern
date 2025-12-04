@@ -319,8 +319,13 @@ export default function Projects() {
                     target="_blank"
                   >
                     <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
+<<<<<<< HEAD
                       <DiGithubFull size={30} />
                       {/* Link */}
+=======
+                      <DiGithubFull size={30} /> 
+                      
+>>>>>>> efcd04a2b6377f5529f415951ba70fc4ae1ea7b0
                     </button>
                   </Link>
                 </div>
