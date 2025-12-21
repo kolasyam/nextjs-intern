@@ -59,7 +59,8 @@ export default function Projects() {
                 </p>
                 <div className="flex justify-center flex-wrap">
                   <Link
-                    href="https://euphonious-phoenix-5d9ecd.netlify.app/"
+                    // href="https://euphonious-phoenix-5d9ecd.netlify.app/"
+                    href="https://list-project-frontend-sjbl.vercel.app/"
                     passHref
                     target="_blank"
                   >
@@ -105,7 +106,8 @@ export default function Projects() {
                 </p>
                 <div className="flex justify-center flex-wrap mt-8">
                   <Link
-                    href="https://task-tracker-frontend-3jwc.onrender.com/"
+                    // href="https://task-tracker-frontend-3jwc.onrender.com/"
+                    href="https://task-tracker-frontend-4vlc.vercel.app/"
                     passHref
                     target="_blank"
                   >
