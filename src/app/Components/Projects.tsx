@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+// import React from "react";
 import { useEffect } from "react";
 import Image from "next/image";
 import weather from "/projects/weather-app.jpg";
