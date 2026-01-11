@@ -11,6 +11,7 @@ import calculator from "/projects/geminiai.png";
 import tasktracker from "/projects/task tracker.png";
 import listsystem from "/projects/list system.png";
 import restaurent from "/projects/restaurent.png";
+import event from '/projects/mini event platform.png'
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Link from "next/link";
@@ -203,6 +204,47 @@ export default function Projects() {
                 <div className="flex justify-center flex-wrap">
                   <Link
                     href="https://restaurant-frontend-ejph.vercel.app/"
+                    passHref
+                    target="_blank"
+                  >
+                    <button className="flex mx-auto text-white bg-slate-500 border-0 py-2 px-8 focus:outline-none hover:bg-slate-400 rounded text-lg">
+                      {/* <DiGithubFull size={30} /> */}
+                      Link
+                    </button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+                    <div className="p-4 md:w-1/3 hover:scale-105 ease-in duration-300">
+            <div className="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+              <div className="lg:h-48 md:h-36 w-full object-cover object-center ">
+                <Image src={event} alt="/" width="720" height="401" />
+              </div>
+              <div className="p-6">
+                <h1 className="title-font text-lg font-medium text-gray-900 mb-2">
+                  Mini Event Platform
+                </h1>
+                <div className="flex flex-row justify-between items-center flex-wrap">
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    next.js
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Node.js
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    Express.js
+                  </div>
+                  <div className="text-white bg-indigo-500 rounded-md px-2 hover:bg-indigo-700">
+                    MongoDB
+                  </div>
+                </div>
+                <p className="leading-relaxed mb-3">
+                  This Project is a full-stack event management application built using Next.js (TypeScript), Node.js, Express, and MongoDB. It enables users to securely create, manage, and RSVP to events with JWT-based authentication and protected APIs.<br/> The platform supports real-time capacity tracking with concurrency control to prevent overbooking. Features include event search and filtering, Cloudinary image uploads, and a responsive dashboard for event and attendance management.
+                </p>
+                <div className="flex justify-center flex-wrap">
+                  <Link
+                    href="https://fission-assginment-frontend-zkp5.vercel.app/"
                     passHref
                     target="_blank"
                   >
